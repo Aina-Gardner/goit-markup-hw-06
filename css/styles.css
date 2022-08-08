@@ -599,7 +599,13 @@ border-radius: 4px;
   background: #2F303A;
   padding-left: 16px;
   margin-right: 12px;
+  font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
+
 
 .footer-input-btn {
   display: flex;
