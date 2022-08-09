@@ -241,6 +241,7 @@ body {
   font-size: 16px;
   line-height: 1.89;
   color: #ffffff;
+  letter-spacing: 0.06em;
   margin-top: 30px;
   margin-bottom: 200px;
   border: 1px solid rgba(33, 150, 243, 1);
@@ -633,6 +634,7 @@ margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   color: #ffffff;
+  letter-spacing: 0.06em;
   border: 1px solid rgba(33, 150, 243, 1);
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -707,6 +709,8 @@ margin-bottom: 20px;
   transition: fill var(--transition-dur-and-func);
 }
 
+
+.modal-close-btn:hover,
 .modal-close-btn:focus {
   outline: none;
   fill: var(--accent-color);
@@ -825,7 +829,7 @@ margin-bottom: 30px;
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-  background-image: url(/images/checked.svg);
+  background-image: url(../images/checked.svg);
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid rgba(33, 150, 243, 1);
@@ -843,6 +847,7 @@ margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.88;
   color: #ffffff;
+  letter-spacing: 0.06em;
   margin-bottom: 40px;
   border: 1px solid rgba(33, 150, 243, 1);
   background: #2196F3;
@@ -874,6 +879,14 @@ border-radius: 4px;
 
 }
 
+.link-user-policy {
+  text-decoration-line: underline;
+color: #2196F3;
+}
+
+.modal-close-btn-icon {
+  padding-top: 2px;
+}
 
 
 /* ========/Modal form======== */
